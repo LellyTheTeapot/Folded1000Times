@@ -29,8 +29,13 @@ AddKeySection "DemonSteele - Optional Keys" "demonsteeleoptional"
 AddMenuKey "Flashlight" "IfZandronumHadTheReloadKeyThenIWouldntNeedToDoThis"
 AddMenuKey "ZDoom: Taunt" zdoomtaunt
 AddMenuKey "Weapon Action" +launchoctopus
+AddMenuKey "Weapon Action" +launchoctopus
+AddMenuKey "Weapon Action" +launchoctopus
 
 Alias "IfZandronumHadTheReloadKeyThenIWouldntNeedToDoThis" "Puke -281"
 Alias zdoomtaunt "use ZDoomTauntButton"
 Alias +launchoctopus "use UppercutTrigger"
 Alias -launchoctopus "use UppercutUntrigger"
+Alias ShihongHotkey1 "Use HaggarModeActivate"
+Alias ShihongHotkey2 "Use RangedModeActivate"
+Alias ShihongHotkey3 "Use TricksterModeActivate"
